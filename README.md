@@ -5,8 +5,8 @@ Wisconsin Breast Cancer (Diagnostic) dataset to build and evaluate
 supervised machine‑learning models for tumour classification.  The goal
 is to predict whether a breast tumour is **malignant** or **benign**
 based on 30 numeric features derived from cell nuclei in digitised
-images【287038991818988†L676-L703】.  The dataset consists of 569
-samples split into 212 malignant and 357 benign cases【287038991818988†L676-L703】.
+images.  The dataset consists of 569
+samples split into 212 malignant and 357 benign cases.
 
 > **Why this dataset?**  The Breast Cancer Wisconsin (Diagnostic)
 > dataset is a well‑known benchmark that is small enough to train
@@ -20,11 +20,11 @@ The dataset used in this project originates from the University of
 Wisconsin Hospitals, Madison.  Each record describes a fine
 needle aspirate (FNA) of a breast mass.  Thirty real‑valued
 features characterise the shape, texture and geometry of cell nuclei in
-the digitised images【136898347949267†L94-L101】.  Examples include
+the digitised images.  Examples include
 **radius**, **texture**, **perimeter**, **area**, **smoothness** and
 **concavity** of the nuclei.  There are **569 samples**, with **212
-malignant** and **357 benign** tumours【287038991818988†L676-L703】.  All features are positive
-real numbers and there are no missing values【287038991818988†L676-L703】.
+malignant** and **357 benign** tumours.  All features are positive
+real numbers and there are no missing values.
 
 For more details see the [UCI Machine Learning Repository
 entry](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
@@ -133,10 +133,10 @@ jupyter lab
 
 * **UCI Machine Learning Repository.** *Breast Cancer Wisconsin (Diagnostic)*
   dataset information: features are computed from digitised FNA images
-  describing characteristics of cell nuclei【136898347949267†L94-L101】.
+  describing characteristics of cell nuclei.
 * **scikit‑learn documentation.** The dataset contains 569 samples with
   30 real‑valued features; there are 212 malignant and 357 benign
-  tumours and no missing values【287038991818988†L676-L703】.
+  tumours and no missing values.
 
 ## License
 
