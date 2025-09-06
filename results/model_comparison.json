@@ -1,0 +1,49 @@
+[
+  {
+    "model":"Logistic Regression",
+    "best_params":{
+      "clf__C":0.1,
+      "clf__penalty":"l2"
+    },
+    "accuracy":0.9824561404,
+    "precision_malignant":0.9761904762,
+    "recall_malignant":0.9761904762,
+    "f1_malignant":0.9761904762,
+    "precision_benign":0.9861111111,
+    "recall_benign":0.9861111111,
+    "f1_benign":0.9861111111,
+    "roc_auc":0.996031746
+  },
+  {
+    "model":"Random Forest",
+    "best_params":{
+      "clf__max_depth":null,
+      "clf__min_samples_split":2,
+      "clf__n_estimators":100
+    },
+    "accuracy":0.9561403509,
+    "precision_malignant":0.9512195122,
+    "recall_malignant":0.9285714286,
+    "f1_malignant":0.9397590361,
+    "precision_benign":0.9589041096,
+    "recall_benign":0.9722222222,
+    "f1_benign":0.9655172414,
+    "roc_auc":0.9938822751
+  },
+  {
+    "model":"Support Vector Machine",
+    "best_params":{
+      "clf__C":2.0,
+      "clf__gamma":"scale",
+      "clf__kernel":"linear"
+    },
+    "accuracy":0.9561403509,
+    "precision_malignant":0.9111111111,
+    "recall_malignant":0.9761904762,
+    "f1_malignant":0.9425287356,
+    "precision_benign":0.9855072464,
+    "recall_benign":0.9444444444,
+    "f1_benign":0.9645390071,
+    "roc_auc":0.9970238095
+  }
+]
